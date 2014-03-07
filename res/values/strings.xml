@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckyKitty</string>
+    <string name="pocker_name">幸运扑克牌</string>
+    <string name="rsf520_name">剪刀石头布</string>
+    <string name="info_shake">摇一摇，摇出好手气</string>
+    <string name="action_pocker">扑克牌</string>
+    <string name="action_mode_single">单人</string>
+    <string name="action_mode_vsmobile">VS电脑</string>
+    <string name="action_settings">设置</string>
+    <string name="image_invalid_string">图片显示不了，请升级版本</string>
+    <string name="luckyInfo_good">手气太好了，你可以去买彩票了</string>
+    <string name="luckyInfo_bad">别泄气，再来一次</string>
+    
+    <string name="luckyInfo_win">yes! 我赢了</string>
+    <string name="luckyInfo_lose">shit, 我输了</string>
+    <string name="luckyInfo_tie">心心相印啊，我们居然打平了</string>
+</resources>

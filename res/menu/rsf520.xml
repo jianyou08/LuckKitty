@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_pocker"
+        android:title="@string/action_pocker"/>
+    <item
+        android:id="@+id/action_mode_single"
+        android:title="@string/action_mode_single"/>
+    <item
+        android:id="@+id/action_mode_vsmobile"
+        android:title="@string/action_mode_vsmobile"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"/>
+
+</menu>
