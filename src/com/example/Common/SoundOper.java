@@ -25,9 +25,9 @@ public class SoundOper {
 					.getStreamVolume(AudioManager.STREAM_MUSIC);
 			float streamVolumeMax = mgr
 					.getStreamMaxVolume(AudioManager.STREAM_MUSIC);// 设置最大音量
-			float volume = streamVolumeCurrent/streamVolumeMax; //设备的音量
+			float volume = streamVolumeCurrent; //streamVolumeMax; //设备的音量
 			int loop = isLoop ? -1 : 0;
-			mStreamId = soundPool.play(mSoundId, volume, volume, 1, loop, 1f);// 播放
+			mStreamId = soundPool.play(mSoundId, volume, volume, 1, loop, 2);// 播放
 
 			mPalying = true;
 		}

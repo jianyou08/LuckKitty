@@ -3,6 +3,7 @@ package com.example.Luckykitty;
 import com.example.Common.SoundOper;
 import com.example.Pocker.PockerActivity;
 import com.example.Rsf520.Rsf520Activity;
+import com.example.Rsf520.Rsf520SingleActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -51,7 +52,7 @@ public class MainActivity extends Activity {
 			public boolean onTouch(View v, MotionEvent event) {
 				if (event.getAction() == MotionEvent.ACTION_UP) {
 					Intent intent = new Intent(MainActivity.this,
-							Rsf520Activity.class);
+							Rsf520SingleActivity.class);
 					startActivity(intent);
 				}
 				return false;

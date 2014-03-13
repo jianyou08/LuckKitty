@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.Common.BitmapOper;
-import com.example.Common.MediaOper;
 import com.example.Common.ShakeHandler;
 import com.example.Common.ShakeHandler.OnShakeListener;
+import com.example.Common.SoundOper;
 import com.example.Luckykitty.R;
 
 public class Rsf520Activity extends Activity {
@@ -22,7 +22,7 @@ public class Rsf520Activity extends Activity {
 
 	boolean mPlayWithComputer = true;
 	ShakeHandler mShakeListener = null;
-	MediaOper mSound;
+	SoundOper mSound;
 
 	MenuItem mMenuItemModeSingle;
 	MenuItem mMenuItemModeVsMobile;
@@ -35,7 +35,7 @@ public class Rsf520Activity extends Activity {
 		mShakeListener = new ShakeHandler(this);
 		mShakeListener.setOnShakeListener(new ShakeLitenerImpl());
 
-		mSound = new MediaOper(this, R.raw.shake_sound_male);
+		mSound = new SoundOper(this, R.raw.shake_sound_male);
 
 		mImageViewRemote = (ImageView) this
 				.findViewById(R.id.imageViewRsf520Remote);
